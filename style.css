@@ -1,0 +1,129 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  body {
+    background-color: #d3dfeb;
+  }
+  
+  h1 {
+    color: #00ffaa;
+    font-size: 36px;
+    font-family: Georgia;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.5;
+    font-family: Georgia;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 16px 0;
+    font-family: Helvetica;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  audio{
+    z-index:-1;
+  }
+
+  /* Header */
+  
+  .header {
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: "Arial", sans-serif;
+    background-color: white;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    width: 100%;
+    font-weight: 900;
+  }
+  
+  .header li {
+    display: inline-block;
+  }
+  
+  .header a {
+    display: block;
+    color: #22282e;
+    padding: 30px 20px;
+  }
+  
+  a.home {
+    color: #ff003c;
+  }
+  
+  .banner {
+    background: rgb(255,0,85);
+    background: linear-gradient(180deg, rgba(255,0,85,1) 0%, rgba(255,77,0,1) 100%);
+    padding: 100px 0;
+    margin-top: 77px;
+    text-align: center;
+  }
+  
+  .banner p {
+    padding: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  /* about-guitar Sections */
+  
+  .about-guitar {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #22282e;
+  }
+  
+  /* image-guitar */
+
+  .image-guitar1 {
+    background: rgb(255,0,85);
+    background: linear-gradient(0deg, rgba(255,0,85,1) 0%, rgba(255,77,0,1) 100%);
+    margin: 0px 0;
+    padding: 20px 50px;
+  }
+  
+  .image-guitar1 h2{
+    color: #00b3ff;
+  }
+
+  .image-guitar1 .creator {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  .image-guitar2 {
+    background: rgb(255,0,85);
+    background: linear-gradient(180deg, rgba(255,0,85,1) 0%, rgba(255,77,0,1) 100%);
+    margin: 0px 0;
+    padding: 20px 50px;
+  }
+  
+  .image-guitar2 h2{
+    color: #00ffaa;
+  }
+
+  .image-guitar2 .creator {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+  
+  .regular {
+    font-weight: normal;
+  }
